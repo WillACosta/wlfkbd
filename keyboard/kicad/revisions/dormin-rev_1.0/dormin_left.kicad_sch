@@ -6964,18 +6964,6 @@
 		)
 		(uuid "71a69708-0d90-4c19-b4d2-a2e76b7c6f80")
 	)
-	(text "D O R M I N"
-		(exclude_from_sim no)
-		(at 25.654 235.458 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 14.732 14.732)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cbe26e2-a821-4413-a486-a5ccba2e0f2d")
-	)
 	(text "STATUS LEDs\n"
 		(exclude_from_sim no)
 		(at 17.78 125.73 0)
