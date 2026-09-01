@@ -1,5 +1,8 @@
 ## The Wolf Split Keyboard
 
+> [!WARNING]
+> **Work In Progress (WIP)**: This project is currently under active development.
+
 > 3×6 (+2 outer-pinky) Split Keyboard · 3 Thumb Keys · All 1U · MX Compatible
 
 AKA Wlfkbd or just `Wlf` is a 40 keys split keyboard, inspired by some awesome keyboards that I've used and loved. The main goal is to create a customizable keyboard with optional features, but still as minimal as possible regarding the design.
@@ -24,8 +27,6 @@ AKA Wlfkbd or just `Wlf` is a 40 keys split keyboard, inspired by some awesome k
 - SD OLED screen or Nice!View
 
 ## Layout Overview
-
-The Wlf is a **40-key split keyboard** (20 keys per half) with a column-staggered matrix and a splayed thumb cluster.
 
 | Zone | Columns | Rows | Keys/half | Notes |
 |------|---------|------|-----------|-------|
