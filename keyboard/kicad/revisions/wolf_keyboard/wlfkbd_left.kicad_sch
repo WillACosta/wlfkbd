@@ -6662,9 +6662,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "D O R M I N"
+	(text "W O L F K B D"
 		(exclude_from_sim no)
-		(at 21.59 234.95 0)
+		(at 10.16 234.95 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -6676,7 +6676,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 62.23 31.75 0)
+		(at 63.5 29.21 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6789,7 +6789,7 @@
 		(uuid "0103247f-2fb3-4f52-b4c3-9902109264d8")
 	)
 	(junction
-		(at 97.79 81.28)
+		(at 99.06 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "021a32eb-9563-43e6-84a1-aa5a9220d95c")
@@ -6945,7 +6945,7 @@
 		(uuid "5b678f74-a1a9-43d5-9902-11358eba040d")
 	)
 	(junction
-		(at 86.36 81.28)
+		(at 87.63 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66641903-6733-4bd5-b1f1-a61e2950b8fd")
@@ -6985,6 +6985,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ba9590d-44b7-4e2b-83b2-eac10d68d730")
+	)
+	(junction
+		(at 124.46 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ef56ba3-c15a-4528-8216-35e0c234d813")
 	)
 	(junction
 		(at 130.81 133.35)
@@ -7269,7 +7275,7 @@
 		(uuid "fc6de74c-1cc7-48f7-9205-622348999ce7")
 	)
 	(no_connect
-		(at 110.49 50.8)
+		(at 111.76 48.26)
 		(uuid "941726da-ad40-4a93-b6b9-346476fc526a")
 	)
 	(no_connect
@@ -7359,6 +7365,16 @@
 			(type default)
 		)
 		(uuid "09882f72-c3af-4b1b-aa81-51dff9499dcf")
+	)
+	(wire
+		(pts
+			(xy 124.46 55.88) (xy 111.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ff2f1c-7539-45e5-b1c2-0bfc50f3a258")
 	)
 	(wire
 		(pts
@@ -7622,7 +7638,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 85.09) (xy 86.36 81.28)
+			(xy 87.63 82.55) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7942,7 +7958,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 86.36 81.28)
+			(xy 80.01 78.74) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8002,7 +8018,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 81.28) (xy 97.79 87.63)
+			(xy 99.06 78.74) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8022,7 +8038,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 81.28) (xy 86.36 80.01)
+			(xy 87.63 78.74) (xy 87.63 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8212,7 +8228,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 80.01) (xy 97.79 81.28)
+			(xy 99.06 77.47) (xy 99.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8262,7 +8278,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 81.28) (xy 104.14 81.28)
+			(xy 83.82 93.98) (xy 95.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc309097-9fdc-40a9-9bae-8ba269f6707b")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 105.41 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8282,7 +8308,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 93.98 87.63)
+			(xy 95.25 77.47) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8322,7 +8348,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 34.29) (xy 97.79 43.18)
+			(xy 99.06 31.75) (xy 99.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8592,6 +8618,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 50.8) (xy 124.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd16d928-6764-40f4-b79a-c89fcef0f204")
+	)
+	(wire
+		(pts
 			(xy 109.22 189.23) (xy 118.11 189.23)
 		)
 		(stroke
@@ -8622,7 +8658,7 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 110.49 69.85 0)
+		(at 111.76 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8632,7 +8668,7 @@
 		)
 		(uuid "03c2df1e-0b66-4cbe-8ad2-e38f457210cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.3133 69.85 0)
+			(at 119.5833 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8670,7 +8706,7 @@
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 110.49 73.66 0)
+		(at 111.76 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8680,7 +8716,7 @@
 		)
 		(uuid "1d70b80f-ef13-4ba3-a7c6-91f7ec33734e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.3133 73.66 0)
+			(at 119.5833 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8694,7 +8730,7 @@
 	)
 	(global_label "STS_LED_EN"
 		(shape input)
-		(at 97.79 87.63 270)
+		(at 99.06 85.09 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8704,7 +8740,7 @@
 		)
 		(uuid "1ee1ae62-7b0f-447b-bc90-52f0794893b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 101.8636 90)
+			(at 99.06 99.3236 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8718,7 +8754,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 72.39 50.8 180)
+		(at 73.66 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8728,7 +8764,7 @@
 		)
 		(uuid "21ab6e3e-94b8-44e1-abbb-3f8aaec41455")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1434 50.8 0)
+			(at 65.4134 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +8946,7 @@
 	)
 	(global_label "STS_LED_DATA"
 		(shape input)
-		(at 93.98 87.63 270)
+		(at 95.25 93.98 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8920,7 +8956,7 @@
 		)
 		(uuid "576e5c26-ac49-446f-b75d-5f4cb422b971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 103.7989 90)
+			(at 95.25 110.1489 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8934,7 +8970,7 @@
 	)
 	(global_label "COL5"
 		(shape input)
-		(at 110.49 66.04 0)
+		(at 111.76 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8944,7 +8980,7 @@
 		)
 		(uuid "5e796a82-1d90-4d0d-bda2-d812ee59539e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.3133 66.04 0)
+			(at 119.5833 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +8994,7 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 72.39 58.42 180)
+		(at 73.66 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8968,7 +9004,7 @@
 		)
 		(uuid "5ef8c7b0-6fad-41ef-b10a-621d5eb2a5ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1434 58.42 0)
+			(at 65.4134 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9054,7 +9090,7 @@
 	)
 	(global_label "COL1"
 		(shape input)
-		(at 72.39 69.85 180)
+		(at 73.66 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9064,7 +9100,7 @@
 		)
 		(uuid "83eb2c75-ac26-4481-aa93-4d912dc83c47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5667 69.85 0)
+			(at 65.8367 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9102,7 +9138,7 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 72.39 66.04 180)
+		(at 73.66 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9112,7 +9148,7 @@
 		)
 		(uuid "91bf6b75-abc4-4e78-8eee-24bff274eecf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5667 66.04 0)
+			(at 65.8367 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9174,7 +9210,7 @@
 	)
 	(global_label "LED_PWM"
 		(shape input)
-		(at 110.49 62.23 0)
+		(at 111.76 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9184,7 +9220,7 @@
 		)
 		(uuid "aea4755a-8c8c-4abb-ab31-15a01748fbfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.0627 62.23 0)
+			(at 123.3327 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9222,7 +9258,7 @@
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 72.39 54.61 180)
+		(at 73.66 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9232,7 +9268,7 @@
 		)
 		(uuid "b109c6a1-dad3-4d62-b9c7-0139ea23e236")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1434 54.61 0)
+			(at 65.4134 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9270,7 +9306,7 @@
 	)
 	(global_label "SWC"
 		(shape input)
-		(at 90.17 43.18 90)
+		(at 91.44 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9280,7 +9316,7 @@
 		)
 		(uuid "bdcfc144-a4e9-45bc-8e98-41e9344dc4f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 36.2639 90)
+			(at 91.44 33.7239 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9342,7 +9378,7 @@
 	)
 	(global_label "SWD"
 		(shape input)
-		(at 86.36 43.18 90)
+		(at 87.63 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9352,7 +9388,7 @@
 		)
 		(uuid "daa5ae23-96fb-40be-86c2-69656c3dc3cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 36.2639 90)
+			(at 87.63 33.7239 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9390,7 +9426,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 93.98 43.18 90)
+		(at 95.25 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9400,7 +9436,7 @@
 		)
 		(uuid "e7579712-6e90-4dc8-9623-86206f1657e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 34.4497 90)
+			(at 95.25 31.9097 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,7 +9450,7 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 72.39 73.66 180)
+		(at 73.66 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9424,7 +9460,7 @@
 		)
 		(uuid "e8ce5b30-1b0d-4653-8316-3e937d2e38b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5667 73.66 0)
+			(at 65.8367 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9462,7 +9498,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 72.39 62.23 180)
+		(at 73.66 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9472,7 +9508,7 @@
 		)
 		(uuid "f1e8007f-82f7-4a04-b534-6f23116241aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1434 62.23 0)
+			(at 65.4134 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9615,7 +9651,7 @@
 			(uuid "a370cf7a-ab24-4aa8-8eef-bb2662fa3df8")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D39")
 					(unit 1)
@@ -9730,7 +9766,7 @@
 			(uuid "cd7f38e1-275a-4499-8fd3-011d9eed4a57")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D32")
 					(unit 1)
@@ -9833,7 +9869,7 @@
 			(uuid "cb90a348-b831-4d99-87e5-a658dc161aae")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R14")
 					(unit 1)
@@ -9937,7 +9973,7 @@
 			(uuid "d584b4c2-7cde-4fb2-8a54-99a3bc1e1f1e")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D20")
 					(unit 1)
@@ -10040,7 +10076,7 @@
 			(uuid "d4ef31e3-a415-48f2-a3d8-ba0b42304212")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R19")
 					(unit 1)
@@ -10142,7 +10178,7 @@
 			(uuid "5ced7bd2-6464-4e0c-b3be-07002ebb83e3")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R712")
 					(unit 1)
@@ -10218,7 +10254,7 @@
 			(uuid "638fed46-cb84-4ec8-9285-452a75d78625")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR025")
 					(unit 1)
@@ -10310,7 +10346,7 @@
 			(uuid "1c42eb81-c9ff-4393-b21a-47894bca0799")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "C4")
 					(unit 1)
@@ -10388,7 +10424,7 @@
 			(uuid "bc405c2c-7af8-4ab6-9cfe-6f744323acaa")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR024")
 					(unit 1)
@@ -10469,7 +10505,7 @@
 			(uuid "6b7aa8ba-fade-4b8f-b3ad-aca4cd856260")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW2")
 					(unit 1)
@@ -10550,7 +10586,7 @@
 			(uuid "4f23873d-ddaa-4e54-8506-23856de21fae")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW19")
 					(unit 1)
@@ -10665,7 +10701,7 @@
 			(uuid "5a9e740e-f962-4490-9284-02e79b69e6ce")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D35")
 					(unit 1)
@@ -10768,7 +10804,7 @@
 			(uuid "fde6b280-be26-4319-9150-389a37912dcc")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R8")
 					(unit 1)
@@ -10859,7 +10895,7 @@
 			(uuid "68ce7ac5-533e-40c5-860e-172278326fbb")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "JST1")
 					(unit 1)
@@ -10939,7 +10975,7 @@
 			(uuid "ce7d6729-0758-466b-8859-b5a9e104884e")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "RSW1")
 					(unit 1)
@@ -11042,7 +11078,7 @@
 			(uuid "260255e9-335e-4453-8517-45159ac9c8bb")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R21")
 					(unit 1)
@@ -11146,7 +11182,7 @@
 			(uuid "6cfdd95d-549f-4d00-86cf-126597f41e07")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D9")
 					(unit 1)
@@ -11250,7 +11286,7 @@
 			(uuid "62b5b3a9-ec7a-4259-ae99-f90d4241c9cd")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D14")
 					(unit 1)
@@ -11353,7 +11389,7 @@
 			(uuid "22e190f0-7607-4013-8152-b7798ca14166")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R9")
 					(unit 1)
@@ -11457,7 +11493,7 @@
 			(uuid "7fbda305-4894-4cda-8f79-683269b91287")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D3")
 					(unit 1)
@@ -11561,7 +11597,7 @@
 			(uuid "1ad61361-1026-43e6-a9ca-9e718e7d47b5")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D5")
 					(unit 1)
@@ -11665,7 +11701,7 @@
 			(uuid "355f4e43-66c1-4fb1-b0d8-a78e71af2e6f")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D2")
 					(unit 1)
@@ -11746,7 +11782,7 @@
 			(uuid "e87da547-838c-48bf-8b8e-cacdb5bab097")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW3")
 					(unit 1)
@@ -11838,7 +11874,7 @@
 			(uuid "80e28cd7-fa38-4237-b2d8-f0c1d8f5c366")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "C3")
 					(unit 1)
@@ -11931,7 +11967,7 @@
 			(uuid "b88c3e86-f224-44a9-888b-009a055d88ab")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "C2")
 					(unit 1)
@@ -12012,7 +12048,7 @@
 			(uuid "12a47695-1505-4c5f-9979-028aa427df88")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW9")
 					(unit 1)
@@ -12090,7 +12126,7 @@
 			(uuid "826a4e95-5c2c-499b-8039-39024dcce7e5")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR07")
 					(unit 1)
@@ -12100,7 +12136,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 78.74 81.28 90)
+		(at 80.01 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12110,7 +12146,7 @@
 		(dnp no)
 		(uuid "378b99af-3586-405d-9cce-5286331c965b")
 		(property "Reference" "TP1"
-			(at 73.66 82.55 90)
+			(at 72.39 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12132,7 +12168,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 78.74 76.2 0)
+			(at 80.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12143,7 +12179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 76.2 0)
+			(at 80.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12154,7 +12190,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 78.74 81.28 0)
+			(at 80.01 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12168,7 +12204,7 @@
 			(uuid "5aff93ba-5150-445e-a4a9-a44feb19241a")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "TP1")
 					(unit 1)
@@ -12283,7 +12319,7 @@
 			(uuid "bba74b97-70e9-4c16-ac91-5d04c5abf307")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D37")
 					(unit 1)
@@ -12364,7 +12400,7 @@
 			(uuid "a3e41a36-35c8-4bf2-8890-5405617d7fdd")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW4")
 					(unit 1)
@@ -12468,7 +12504,7 @@
 			(uuid "eab538e5-b21a-450d-96c3-eb34a51b0a9f")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D11")
 					(unit 1)
@@ -12549,7 +12585,7 @@
 			(uuid "87e0e635-bcd0-4630-a003-11bbf982b660")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW13")
 					(unit 1)
@@ -12653,7 +12689,7 @@
 			(uuid "37b351ce-727a-4eba-84da-ced552e50904")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D12")
 					(unit 1)
@@ -12756,7 +12792,7 @@
 			(uuid "1d0cca45-ad06-48ea-84d6-f386814f1e64")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R7")
 					(unit 1)
@@ -12832,7 +12868,7 @@
 			(uuid "81b3d4b4-e318-45b8-9d8c-51a1bc5b9bfc")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR029")
 					(unit 1)
@@ -12913,7 +12949,7 @@
 			(uuid "213bb6e7-5146-4622-bc19-09d18ab93a0a")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW5")
 					(unit 1)
@@ -13028,7 +13064,7 @@
 			(uuid "b20fb414-6dd3-4f87-b57e-7ae561eace60")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D26")
 					(unit 1)
@@ -13109,7 +13145,7 @@
 			(uuid "47c96daf-193e-48f6-88a0-a9b3ea71befc")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW6")
 					(unit 1)
@@ -13212,7 +13248,7 @@
 			(uuid "cb16a8ab-0591-48cf-ba8a-322b7936e54f")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R16")
 					(unit 1)
@@ -13311,7 +13347,7 @@
 			(uuid "f432efc2-e306-4f48-8af9-1dac905a9a99")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "Q2")
 					(unit 1)
@@ -13392,7 +13428,7 @@
 			(uuid "c7691c7c-51c9-406c-908e-5afbf9d52b47")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW15")
 					(unit 1)
@@ -13480,7 +13516,7 @@
 			(uuid "8ac44ac2-2225-4bf4-9eb0-09b9276f9931")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D21")
 					(unit 1)
@@ -13584,7 +13620,7 @@
 			(uuid "759c5a33-d7dd-47ed-bb4d-6535f056b060")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D4")
 					(unit 1)
@@ -13672,7 +13708,7 @@
 			(uuid "c4f4b2ec-7f3f-470f-a3cd-8041d172a21c")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D23")
 					(unit 1)
@@ -13776,7 +13812,7 @@
 			(uuid "62984d9d-bbaf-4896-a26b-ed71bf2090b9")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D8")
 					(unit 1)
@@ -13857,7 +13893,7 @@
 			(uuid "1331cb0a-8cf4-4256-bb80-213521f83231")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW11")
 					(unit 1)
@@ -13936,7 +13972,7 @@
 			(uuid "cd506b0b-b2aa-480f-b38e-08344419c3f2")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR014")
 					(unit 1)
@@ -14040,7 +14076,7 @@
 			(uuid "bd2b8101-fe8f-4d5f-b8d2-3c4197046dff")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D15")
 					(unit 1)
@@ -14143,7 +14179,7 @@
 			(uuid "8369563b-a229-4681-a452-5891eb5dcc40")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R11")
 					(unit 1)
@@ -14224,7 +14260,7 @@
 			(uuid "58c33a5d-9891-4db4-88fa-39a6a302440c")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW18")
 					(unit 1)
@@ -14302,7 +14338,7 @@
 			(uuid "cc098609-27cd-4a40-92d9-e05b613873be")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR011")
 					(unit 1)
@@ -14383,7 +14419,7 @@
 			(uuid "5099c922-5101-482a-9c92-e1086964289a")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW8")
 					(unit 1)
@@ -14487,7 +14523,7 @@
 			(uuid "b47ebe8b-ed9d-4db4-bfb4-cba0f2c75349")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D1")
 					(unit 1)
@@ -14590,7 +14626,7 @@
 			(uuid "a591dbbd-f112-4e3b-8fce-e5412d4ae627")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R17")
 					(unit 1)
@@ -14693,7 +14729,7 @@
 			(uuid "59287a29-f7ec-4cba-9ca1-14f9a1285381")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R710")
 					(unit 1)
@@ -14808,7 +14844,7 @@
 			(uuid "1744283c-e2c6-426f-9a93-4b6704f28dfa")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D33")
 					(unit 1)
@@ -14907,7 +14943,7 @@
 			(uuid "345fd215-eaa6-4be0-b875-163ac43e1b07")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "Q1")
 					(unit 1)
@@ -15022,7 +15058,7 @@
 			(uuid "e2e4efe3-f5d0-49f0-b909-001668b4776b")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D36")
 					(unit 1)
@@ -15137,7 +15173,7 @@
 			(uuid "0b031ba1-e722-4153-b0be-c4c0867c3b3b")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D42")
 					(unit 1)
@@ -15240,7 +15276,7 @@
 			(uuid "f2bfaeb7-2dd6-4ef0-b6bb-cee0650526a2")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R22")
 					(unit 1)
@@ -15333,7 +15369,7 @@
 			(uuid "b313dd67-3eb6-4c76-8eaa-45ba6d3d3367")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "PSW1")
 					(unit 1)
@@ -15448,7 +15484,7 @@
 			(uuid "d795fa7a-ec78-404c-8bbe-acf5e741ca0b")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D38")
 					(unit 1)
@@ -15563,7 +15599,7 @@
 			(uuid "df1ef9cb-b8f1-46db-9b37-4db4d150088f")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D44")
 					(unit 1)
@@ -15678,7 +15714,7 @@
 			(uuid "8d6eb056-69ef-4299-beb8-0421d8ad8847")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D29")
 					(unit 1)
@@ -15781,7 +15817,7 @@
 			(uuid "1126f875-614a-4315-b8a1-8abdd1cfe510")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R4")
 					(unit 1)
@@ -15884,7 +15920,7 @@
 			(uuid "897bc1fc-92aa-42cf-9881-77ac3fa0aa5f")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R13")
 					(unit 1)
@@ -15987,7 +16023,7 @@
 			(uuid "9747dc8a-673f-4cc3-8a36-38a7066da3e3")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R2")
 					(unit 1)
@@ -16091,7 +16127,7 @@
 			(uuid "88c57821-c8c5-448b-9a8c-7775eda5c5cc")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D13")
 					(unit 1)
@@ -16172,7 +16208,7 @@
 			(uuid "82a6cb56-8a4f-419b-a9e4-59729811437d")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW10")
 					(unit 1)
@@ -16248,7 +16284,7 @@
 			(uuid "cc93076f-9512-4b50-99ab-48c8cea9af9f")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR028")
 					(unit 1)
@@ -16336,7 +16372,7 @@
 			(uuid "42bb7202-1a13-4021-ab76-647519a2686d")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D22")
 					(unit 1)
@@ -16439,7 +16475,7 @@
 			(uuid "7c40b8fb-ebd2-4d71-874d-1e602ad11f5c")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R18")
 					(unit 1)
@@ -16542,7 +16578,7 @@
 			(uuid "3242d751-1b7c-482d-b004-e8d7a3596b82")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R15")
 					(unit 1)
@@ -16620,7 +16656,7 @@
 			(uuid "9aa40c1c-7df8-4fa8-affc-763be8417caf")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR010")
 					(unit 1)
@@ -16630,7 +16666,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 104.14 81.28 270)
+		(at 105.41 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16640,7 +16676,7 @@
 		(dnp no)
 		(uuid "8e3b4ac3-130e-47ba-9926-9be9f55984f1")
 		(property "Reference" "TP3"
-			(at 113.03 82.55 90)
+			(at 114.3 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16651,7 +16687,7 @@
 			)
 		)
 		(property "Value" "STS_LED_EN"
-			(at 120.65 80.01 90)
+			(at 121.92 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16662,7 +16698,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 104.14 86.36 0)
+			(at 105.41 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16673,7 +16709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 86.36 0)
+			(at 105.41 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16684,7 +16720,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 104.14 81.28 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16698,7 +16734,7 @@
 			(uuid "42ee1f96-ec6e-4009-92de-ab14a904086c")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "TP3")
 					(unit 1)
@@ -16802,7 +16838,7 @@
 			(uuid "24c89702-4b49-43ee-82ca-982acf1a159a")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D10")
 					(unit 1)
@@ -16906,7 +16942,7 @@
 			(uuid "191fb001-ec2c-403c-902e-61afc1034533")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D17")
 					(unit 1)
@@ -17008,7 +17044,7 @@
 			(uuid "d994f1e5-3f72-4dea-b821-c66ef8881d76")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R707")
 					(unit 1)
@@ -17123,9 +17159,85 @@
 			(uuid "161fe6b8-4576-4082-b818-a904e9f363f1")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a211c9c-dffa-41c6-8106-8b2b8b48b9cb")
+		(property "Reference" "TP2"
+			(at 67.31 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STS_LED_DATA"
+			(at 72.39 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 83.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e999586-619c-4421-8652-e944e19ce12d")
+		)
+		(instances
+			(project "wlfkbd"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -17238,7 +17350,7 @@
 			(uuid "b76b3837-b662-4898-849d-aec6c5b9b367")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D41")
 					(unit 1)
@@ -17248,7 +17360,7 @@
 	)
 	(symbol
 		(lib_id "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD")
-		(at 93.98 69.85 0)
+		(at 95.25 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17259,7 +17371,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dddcb07-6db3-4285-baa6-9ec4a9656f9c")
 		(property "Reference" "U3"
-			(at 99.9333 40.64 0)
+			(at 101.2033 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17270,7 +17382,7 @@
 			)
 		)
 		(property "Value" "XIAO-nRF52840-SMD"
-			(at 99.9333 43.18 0)
+			(at 101.2033 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17281,7 +17393,7 @@
 			)
 		)
 		(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD"
-			(at 85.09 64.77 0)
+			(at 86.36 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17292,7 +17404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 64.77 0)
+			(at 86.36 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17303,7 +17415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 69.85 0)
+			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17380,7 +17492,7 @@
 			(uuid "86bb5618-4757-4e6e-b910-1b7b0017961b")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "U3")
 					(unit 1)
@@ -17461,7 +17573,7 @@
 			(uuid "350b8569-c05e-4f5b-ad2d-7beaaebc4ba0")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW20")
 					(unit 1)
@@ -17542,7 +17654,7 @@
 			(uuid "7c23b585-0b14-410f-809e-51ac8536a144")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW1")
 					(unit 1)
@@ -17657,7 +17769,7 @@
 			(uuid "f651c7cd-d1ff-4ed0-8a5a-d9c1ebc67f44")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D31")
 					(unit 1)
@@ -17772,7 +17884,7 @@
 			(uuid "f07752ae-e791-48b1-b4ed-e1362b1816a0")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D43")
 					(unit 1)
@@ -17853,7 +17965,7 @@
 			(uuid "48c93ce4-c52d-4b4c-befe-14732567add2")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW14")
 					(unit 1)
@@ -17863,7 +17975,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 110.49 58.42 270)
+		(at 124.46 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17874,7 +17986,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9d4445b-7c2e-4d95-a67f-1378776e0293")
 		(property "Reference" "#PWR016"
-			(at 106.68 58.42 0)
+			(at 120.65 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17885,7 +17997,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 114.3 58.4199 90)
+			(at 128.27 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17896,7 +18008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 58.42 0)
+			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17907,7 +18019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 58.42 0)
+			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17918,7 +18030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 58.42 0)
+			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17932,7 +18044,7 @@
 			(uuid "bdc21d7d-c5ea-4385-9e1d-775513a02e3d")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR016")
 					(unit 1)
@@ -18046,7 +18158,7 @@
 			(uuid "ff63826c-28c7-4f1b-a811-3dccd2f09d03")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "BT1")
 					(unit 1)
@@ -18124,7 +18236,7 @@
 			(uuid "61442c34-8757-4d0d-99f5-ab6891960ecb")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR08")
 					(unit 1)
@@ -18205,7 +18317,7 @@
 			(uuid "1000c18f-38ba-4aba-b428-d46fe017b0e4")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW7")
 					(unit 1)
@@ -18305,7 +18417,7 @@
 			(uuid "93487bcf-16c4-4ec6-a61f-db0a1b3c9716")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R706")
 					(unit 1)
@@ -18408,7 +18520,7 @@
 			(uuid "61a7de71-10a3-4307-8ab9-b17b7b93583b")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R20")
 					(unit 1)
@@ -18512,7 +18624,7 @@
 			(uuid "fecb89f2-c54a-4f2b-b330-3860914d1820")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D19")
 					(unit 1)
@@ -18523,7 +18635,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 90.17 80.01 0)
+		(at 91.44 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18534,7 +18646,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3ca12ee-13e1-4273-ab0f-76d3e339e0ad")
 		(property "Reference" "#PWR06"
-			(at 90.17 86.36 0)
+			(at 91.44 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18545,7 +18657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 85.09 0)
+			(at 91.44 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18555,7 +18667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 80.01 0)
+			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18566,7 +18678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 80.01 0)
+			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18577,7 +18689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 80.01 0)
+			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18591,7 +18703,7 @@
 			(uuid "b676136b-163c-43d5-a79b-095220dc8a65")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR06")
 					(unit 1)
@@ -18679,7 +18791,7 @@
 			(uuid "463e2bdc-bc4a-4ea6-a431-5d04caceaed6")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D24")
 					(unit 1)
@@ -18760,7 +18872,7 @@
 			(uuid "4ce12129-e2d7-4111-9697-47fa86df8838")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW12")
 					(unit 1)
@@ -18841,7 +18953,7 @@
 			(uuid "92a01015-0092-4aa8-9805-a2816b33b801")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW17")
 					(unit 1)
@@ -18852,7 +18964,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 110.49 54.61 90)
+		(at 111.76 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18863,7 +18975,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7279736-7954-47fb-b7b9-417ed9491e96")
 		(property "Reference" "#PWR015"
-			(at 116.84 54.61 0)
+			(at 118.11 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18874,7 +18986,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 54.6099 90)
+			(at 115.57 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18885,7 +18997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 54.61 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18896,7 +19008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 54.61 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18907,7 +19019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 54.61 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18921,7 +19033,7 @@
 			(uuid "59231d23-8dba-457d-bf30-3cbbf307d981")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR015")
 					(unit 1)
@@ -19024,7 +19136,7 @@
 			(uuid "f94077e4-bc8f-460c-b360-667b6434f9bb")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R12")
 					(unit 1)
@@ -19034,7 +19146,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 86.36 85.09 180)
+		(at 87.63 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19045,7 +19157,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7711005-7f59-43af-be9d-767f339cec2e")
 		(property "Reference" "#PWR022"
-			(at 86.36 81.28 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19056,7 +19168,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 86.36 90.17 0)
+			(at 87.63 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19066,7 +19178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 85.09 0)
+			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19077,7 +19189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 85.09 0)
+			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19088,7 +19200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 85.09 0)
+			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19102,7 +19214,7 @@
 			(uuid "d323e63c-cb3d-4b88-a2b6-e2b50fbc0ca4")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR022")
 					(unit 1)
@@ -19204,7 +19316,7 @@
 			(uuid "04ca843b-494c-40af-9960-63e968035961")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R711")
 					(unit 1)
@@ -19282,7 +19394,7 @@
 			(uuid "b6efcbdf-b73f-47cb-8466-f84631ad5ee2")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR021")
 					(unit 1)
@@ -19374,7 +19486,7 @@
 			(uuid "b32886a2-ac83-4296-9447-2903edb6b930")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "C1")
 					(unit 1)
@@ -19478,7 +19590,7 @@
 			(uuid "190420e3-0684-43a3-acd5-a204904b6844")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D16")
 					(unit 1)
@@ -19559,7 +19671,7 @@
 			(uuid "8bff0157-cbed-4320-b80d-273b5089bc46")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "SW16")
 					(unit 1)
@@ -19663,7 +19775,7 @@
 			(uuid "fb22a38e-87ac-4c79-9491-b8e57b92be22")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D18")
 					(unit 1)
@@ -19674,7 +19786,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 97.79 34.29 180)
+		(at 99.06 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19685,7 +19797,7 @@
 		(fields_autoplaced yes)
 		(uuid "d51a7084-a89b-4e0b-92c1-c7e1efabb6fd")
 		(property "Reference" "#PWR01"
-			(at 97.79 27.94 0)
+			(at 99.06 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19696,7 +19808,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 29.21 0)
+			(at 99.06 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19706,7 +19818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 34.29 0)
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19717,7 +19829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 34.29 0)
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19728,7 +19840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 34.29 0)
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19742,7 +19854,7 @@
 			(uuid "1e0fa1d2-1104-4791-9071-3d3574227c81")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR01")
 					(unit 1)
@@ -19846,9 +19958,88 @@
 			(uuid "d27d2dcf-b949-4d85-ae8d-5fc575f09741")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc1cda60-65b5-4ec1-a90c-02257fa9fa11")
+		(property "Reference" "TP6"
+			(at 127 46.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 127 48.7679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 129.54 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c0965a1-1a1d-4c3f-b49f-1f34dd81135b")
+		)
+		(instances
+			(project "wlfkbd"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -19961,7 +20152,7 @@
 			(uuid "205cbe0e-9e26-491c-8674-0521030b5ef2")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D40")
 					(unit 1)
@@ -20064,7 +20255,7 @@
 			(uuid "e3acc0ca-be3f-4a91-8975-0c96f8705485")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R3")
 					(unit 1)
@@ -20167,7 +20358,7 @@
 			(uuid "bc07a3db-696b-4fb9-8958-f4f7ea52460c")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R1")
 					(unit 1)
@@ -20245,7 +20436,7 @@
 			(uuid "23dbd643-a511-4d51-b4c8-8f721ad1ef0a")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "#PWR09")
 					(unit 1)
@@ -20348,7 +20539,7 @@
 			(uuid "4794d6e6-39c1-4b96-998f-23404b650336")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "R10")
 					(unit 1)
@@ -20463,7 +20654,7 @@
 			(uuid "aa09b671-f0d0-4e4a-bb07-fe66b05d8518")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D25")
 					(unit 1)
@@ -20578,7 +20769,7 @@
 			(uuid "2500160f-38ce-4034-bada-78cd26ef22c0")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D46")
 					(unit 1)
@@ -20693,7 +20884,7 @@
 			(uuid "13c9a0de-64df-41ec-9ca1-5fac976667cb")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D34")
 					(unit 1)
@@ -20797,7 +20988,7 @@
 			(uuid "b3cc4184-4f39-425f-a856-a8eb1675d06d")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D6")
 					(unit 1)
@@ -20912,7 +21103,7 @@
 			(uuid "f8764cb7-e9d3-4d30-9ef5-3db098056cfa")
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/61f422a6-c5c1-4994-83bd-f5d919e1e268"
 					(reference "D30")
 					(unit 1)
