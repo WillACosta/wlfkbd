@@ -39,7 +39,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "dormin_left.kicad_sch"
+		(property "Sheetfile" "wlfkbd_left.kicad_sch"
 			(at 44.45 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51,7 +51,7 @@
 			)
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(page "2")
 				)
@@ -85,7 +85,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "dormin_right.kicad_sch"
+		(property "Sheetfile" "wlfkbd_right.kicad_sch"
 			(at 105.41 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -97,7 +97,7 @@
 			)
 		)
 		(instances
-			(project "dormin"
+			(project "wlfkbd"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(page "3")
 				)
