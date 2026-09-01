@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "wlf") (type "KiCad") (uri "/Users/will/workspace/keyboards/wlfkbd/keyboard/kicad/lib/wlf.kicad_sym") (options "") (descr ""))
+)
