@@ -1,8 +1,8 @@
-# Dormin Keyboard — White Backlight System
+# Wlf Keyboard — White Backlight System
 
 ## Overview
 
-Dormin uses a **single-zone white LED backlight** inspired by Apple's Magic Keyboard and MacBook keyboards. The objective is to provide a subtle, elegant, and battery-efficient backlight while keeping the hardware simple, inexpensive, and easy to manufacture using JLCPCB SMT Assembly.
+Wlf uses a **single-zone white LED backlight** inspired by Apple's Magic Keyboard and MacBook keyboards. The objective is to provide a subtle, elegant, and battery-efficient backlight while keeping the hardware simple, inexpensive, and easy to manufacture using JLCPCB SMT Assembly.
 
 Each keyboard half contains:
 
@@ -17,7 +17,7 @@ The entire backlight is controlled as a **single lighting zone**, allowing globa
 
 ### Why No LED Driver?
 
-Dormin Rev. A intentionally avoids dedicated LED driver ICs (IS31FL37xx family).
+Wlf Rev. A intentionally avoids dedicated LED driver ICs (IS31FL37xx family).
 
 Instead, all LEDs are switched simultaneously using a single PWM-controlled MOSFET.
 
@@ -232,7 +232,7 @@ None of these upgrades require changing the LED placement or mechanical design.
 
 # Final Design Summary
 
-The Dormin backlight system prioritizes simplicity, efficiency, and longevity over visual effects.
+The Wlf backlight system prioritizes simplicity, efficiency, and longevity over visual effects.
 
 The final architecture consists of:
 

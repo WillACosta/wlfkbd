@@ -1,6 +1,6 @@
 ## Hardware Definitions
 
-This document describes the hardware decisions and choices for the Dormin Keyboard.
+This document describes the hardware decisions and choices for the Wlf Keyboard.
 
 ## Must Have
 
@@ -18,5 +18,5 @@ This document describes the hardware decisions and choices for the Dormin Keyboa
 
 These are some ideas, but are not yet solid for implementation. Needs deep research.
 
-- Pogo Pins support for charging the peripherel (while central is connected on power).
+- Pogo Pins support for charging the peripheral (while central is connected on power).
 - NFC for wireless charging

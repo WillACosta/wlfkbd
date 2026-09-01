@@ -1,6 +1,6 @@
 ## LED status indicators spec
 
-This document shortly explain the definitions for the LED status indicators for the Dormin keyboard. Here are some approaches that I found on the community.
+This document shortly explain the definitions for the LED status indicators for the Wlf keyboard. Here are some approaches that I found on the community.
 
 ## Requirements
 

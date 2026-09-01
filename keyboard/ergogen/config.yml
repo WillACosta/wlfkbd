@@ -1,10 +1,10 @@
 # ==============================================================================
-# DORMIN KEYBOARD - ERGOGEN V4 CONFIGURATION
+# Wolf KEYBOARD - ERGOGEN V4 CONFIGURATION
 # 40 — key Split Keyboard
 # ==============================================================================
 
 meta:
-  name: "Dormin Keyboard"
+  name: "Wolf Keyboard"
   author: "William A. Costa"
   version: "1.0.0"
   engine: 4.1.0
@@ -297,7 +297,7 @@ cases:
 # PCBS
 # ------------------------------------------------------------------------------
 pcbs:
-  dormin:
+  wlf:
     outlines:
       - outline: pcb_outlines
         layer: Edge.Cuts
