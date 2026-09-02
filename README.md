@@ -68,7 +68,7 @@ I used and own some beloved models that were created by incredible people, model
 
 The Corne is my favorite keyboard out there (you may notice some similarities between the wlfkbd and crkbd).
 
-Still, I was missing something, that little thing that would improve my experience with the keyboard. Then I started to test different layouts on paper, and came up with the layout that you saw earlier. I even used a "Ergo Pad" to understand the most comfortable way of typing for my long fingers.
+Still, I was missing something, that little thing that would improve my experience with the keyboard. Then I started to test different layouts on paper, and came up with the layout that you saw earlier. I even used [Ergo Pad](https://pashutk.com/ergopad/) to understand the most comfortable way of typing for my long fingers.
 
 !["Ergo-Pad layout tester"](./docs/assets/ergo-pad.jpg)
 
