@@ -74,11 +74,11 @@ Still, I was missing something, that little thing that would improve my experien
 
 ### Features
 
-I've taken inspiration from every piece of technology that I found aesthetically pleasing and useful, for example, Apple products. I really enjoy the white backlight of the built-in Mac keyboard.
+I'm very fond of good and minimal design, so I've taken inspiration from Apple products, specially the [Magic Keyboard](https://www.ifixit.com/Teardown/Magic+Keyboard+Teardown/50995) and [Magic Trackpad](https://www.ifixit.com/Teardown/Magic+Trackpad+2+Teardown/51032).
 
-So I wanted to implement this in the first revision. Even though I only use the backlight occasionally, it's a nice-to-have for me.
+I really enjoy the white backlight of the built-in Mac keyboard, so I wanted to implement this in the first revision. Even though I only use the backlight occasionally, it's a nice-to-have for me.
 
-Then the major feature that I introduce here is the status LED on top of the outer-pinky column. It's something that I really wanted to have in previous keyboards, but didn't, so I've decided to implement it here.
+Then the major feature that I introduce here is the status LED on top of the outer-pinky column. It's something that I really wanted to have in previous keyboards, but didn't.
 
 Take a look at the current 3D render of the keyboard:
 
@@ -86,9 +86,9 @@ Take a look at the current 3D render of the keyboard:
 
 > For more pictures head to the [render gallery](./docs/renders/)
 
-## Why "The Wᛝlf"?
+## Why "The WᛝLF"?
 
-I really enjoy the symbolism of "The Wolf", it reminds me of the raw aspect of being human and a strong connection with nature and solitude. Regarding the Norse rune, the "Inguz", it represents "transitions", "new beginnings", "a force of will", etc. I have it tattooed on my right arm, so it's also a personal reference.
+I really enjoy the symbolism of Wolves, it reminds me of the raw aspect of being human and a strong connection with nature and solitude. Regarding the Norse rune, the "Inguz", it represents "transitions", "new beginnings", "a force of will", etc. I have it tattooed on my right arm, so it's also a personal reference.
 
 ## PCB Design
 
