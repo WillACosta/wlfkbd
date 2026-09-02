@@ -8,7 +8,9 @@
 The **WᛝLF Keyboard** or just **wlfkbd** is a 40-key keyboard,
 featuring 2 outer-pinky keys only to improve ergonomics. This keyboard takes inspiration from well-known open-source keyboards such as "Corne", "Klor", and "Delta/Omega".
 
-### Specs
+!["The Wolf Keyboard Render"](./docs/renders/wlf.png)
+
+### Core Features
 
 - Wireless BLE (XIAO nRF52840).
 - Ultra low-profile build (<= 8mm).
@@ -18,7 +20,7 @@ featuring 2 outer-pinky keys only to improve ergonomics. This keyboard takes ins
 - Minimalist and industrial design.
 - Aluminum case.
 - MX-Spacing.
-- Status LEDs.
+- RGB Status LEDs.
 
 > For details about the features, head to the [specs module](./docs/specs/)
 
@@ -57,16 +59,18 @@ The thumb cluster anchors at `matrix_index_bottom` with a `[-0.1u, -1.30u]` offs
 
 After stepping into the rabbit hole of "Custom Split Keyboards", I found myself fascinated by this new world, different keyboard layouts, different techniques, and a lot of fun!
 
-I used and own some beloved models that were created by incredible people, like:
+I used and own some beloved models that were created by incredible people, models like:
 
 - [Corne](https://github.com/foostan/crkbd)
 - [Klor](https://github.com/GEIGEIGEIST/KLOR)
 - [Delta/Omega](https://github.com/unspecworks/delta-omega)
 - [Lily58](https://github.com/kata0510/Lily58)
 
-And the Corne is my favorite keyboard out there (you may notice some similarities between the wlfkbd and crkbd).
+The Corne is my favorite keyboard out there (you may notice some similarities between the wlfkbd and crkbd).
 
-Still, I was missing something—that little thing that would improve my experience with the keyboard. Then I started to test different layouts on paper, and came up with the layout that you saw earlier. I even used an "Ergo Pad" to understand the most comfortable way of typing for my long fingers.
+Still, I was missing something, that little thing that would improve my experience with the keyboard. Then I started to test different layouts on paper, and came up with the layout that you saw earlier. I even used a "Ergo Pad" to understand the most comfortable way of typing for my long fingers.
+
+!["Ergo-Pad layout tester"](./docs/assets/ergo-pad.jpg)
 
 ### Features
 
@@ -78,7 +82,7 @@ Then the major feature that I introduce here is the status LED on top of the out
 
 Take a look at the current 3D render of the keyboard:
 
-![3D render for the wlfkbd](./docs/renders/media/wlfkbd_top.png)
+![3D render for the wlfkbd](./docs/renders/keycaps/top.png)
 
 > For more pictures head to the [render gallery](./docs/renders/)
 
