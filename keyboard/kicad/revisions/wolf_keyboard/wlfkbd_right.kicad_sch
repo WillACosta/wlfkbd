@@ -8014,7 +8014,7 @@
 	)
 	(text "W O L F K B D"
 		(exclude_from_sim no)
-		(at 10.16 237.49 0)
+		(at 11.43 237.49 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8026,7 +8026,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 59.69 22.86 0)
+		(at 57.15 19.05 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9007,7 +9007,7 @@
 	)
 	(polyline
 		(pts
-			(xy 176.53 13.97) (xy 177.8 241.3)
+			(xy 179.07 13.97) (xy 180.34 241.3)
 		)
 		(stroke
 			(width 0)
@@ -9737,7 +9737,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 167.64) (xy 176.53 166.37)
+			(xy 12.7 167.64) (xy 179.07 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9787,7 +9787,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 209.55) (xy 176.53 209.55)
+			(xy 12.7 209.55) (xy 179.07 209.55)
 		)
 		(stroke
 			(width 0)
@@ -15690,10 +15690,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61edf5c0-cf26-4b85-a6c3-2237ce7aba65")
 		(property "Reference" "U1"
-			(at 94.8533 35.56 0)
+			(at 57.15 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15704,7 +15703,7 @@
 			)
 		)
 		(property "Value" "XIAO-nRF52840-SMD"
-			(at 94.8533 38.1 0)
+			(at 57.15 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

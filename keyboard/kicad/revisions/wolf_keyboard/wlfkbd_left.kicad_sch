@@ -7982,7 +7982,7 @@
 	)
 	(text "W O L F K B D"
 		(exclude_from_sim no)
-		(at 10.16 234.95 0)
+		(at 11.43 234.95 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8005,7 +8005,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 63.5 29.21 0)
+		(at 63.5 22.86 0)
 		(effects
 			(font
 				(size 2 2)
@@ -8602,6 +8602,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc6de74c-1cc7-48f7-9205-622348999ce7")
+	)
+	(no_connect
+		(at 91.44 40.64)
+		(uuid "579c4bcb-ddf6-4fa2-b3ca-68c05dbb0a46")
+	)
+	(no_connect
+		(at 87.63 40.64)
+		(uuid "6b65fdff-5587-40f7-9f62-525eeb45c1b5")
 	)
 	(no_connect
 		(at 111.76 48.26)
@@ -9297,7 +9305,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 167.64) (xy 176.53 166.37)
+			(xy 12.7 167.64) (xy 179.07 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9517,7 +9525,7 @@
 	)
 	(polyline
 		(pts
-			(xy 176.53 13.97) (xy 177.8 241.3)
+			(xy 179.07 12.7) (xy 180.34 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9927,7 +9935,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 209.55) (xy 176.53 209.55)
+			(xy 13.97 209.55) (xy 179.07 209.55)
 		)
 		(stroke
 			(width 0)
@@ -10633,30 +10641,6 @@
 			)
 		)
 	)
-	(global_label "SWC"
-		(shape input)
-		(at 91.44 40.64 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bdcfc144-a4e9-45bc-8e98-41e9344dc4f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 33.7239 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "STS_LED_EN"
 		(shape input)
 		(at 24.13 146.05 90)
@@ -10702,30 +10686,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SWD"
-		(shape input)
-		(at 87.63 40.64 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "daa5ae23-96fb-40be-86c2-69656c3dc3cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 33.7239 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -18770,10 +18730,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9dddcb07-6db3-4285-baa6-9ec4a9656f9c")
 		(property "Reference" "U3"
-			(at 101.2033 38.1 0)
+			(at 63.5 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18784,7 +18743,7 @@
 			)
 		)
 		(property "Value" "XIAO-nRF52840-SMD"
-			(at 101.2033 40.64 0)
+			(at 63.5 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
