@@ -11749,7 +11749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -13251,7 +13251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 259.08 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13436,7 +13436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 217.17 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13595,7 +13595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 273.05 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13894,7 +13894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 259.08 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -15489,7 +15489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 245.11 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15814,7 +15814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 245.11 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15895,7 +15895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 273.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17163,7 +17163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 245.11 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18602,7 +18602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 287.02 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18683,7 +18683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -19600,7 +19600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 217.17 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -19681,7 +19681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 245.11 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -20187,7 +20187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 273.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20694,7 +20694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 231.14 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -21136,7 +21136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 287.02 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -21420,7 +21420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 231.14 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -21657,7 +21657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 217.17 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -22137,7 +22137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22218,7 +22218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "willkeebs_keyboard:NF_LED_1206_SW_KS33_3_0_HS_1U"
+		(property "Footprint" "willkeebs_keyboard:KS-33B Hotswap 1u"
 			(at 231.14 57.15 0)
 			(hide yes)
 			(show_name no)
