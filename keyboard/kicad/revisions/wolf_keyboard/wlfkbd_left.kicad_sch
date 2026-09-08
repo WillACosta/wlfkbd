@@ -11276,9 +11276,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "07007bf9-446c-4b81-be37-6b8447db49e1")
 		(property "Reference" "LOGO1"
