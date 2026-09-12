@@ -1,4 +1,4 @@
-## LED status indicators spec
+## LED status indicators behavior spec
 
 This document shortly explain the definitions for the LED status indicators for the Wlf keyboard. Here are some approaches that I found on the community.
 
@@ -10,7 +10,7 @@ This document shortly explain the definitions for the LED status indicators for 
 
 ## Addressable RGB LEDs using SK6812 Mini-E
 
-- LED Strip:SK6812 addressable LEDs (1-4 LEDs recommended)
+- LED Strip: SK6812 addressable LEDs (1-4 LEDs recommended)
 - Power: 5V preferred (3.3V compatible), appropriate current capacity
 - Data Connection: Single GPIO pin connected to strip's DI (Data In)
 - SPI Interface: Available SPI peripheral (uses MOSI pin for data)
@@ -46,7 +46,7 @@ Base = None
 Symbol = None
 Number = None
 Media = 🔵 (Cyan)
-Dev = None
+Dev = 🟢 (Green)
 Extra = 🟣
 
 LEDs are activated in two moments:
@@ -55,11 +55,3 @@ LEDs are activated in two moments:
 - On demand by using specific combos;
 
 When not in use they are turned off to energy saving purpose.
-
-## ARGB and LP5012 LED Driver
-
-The LP driver allows fully controlled RGB lights with the `SDA` and `SCL` GPIOs, using the I2C protocol, as it's shared it can run more than one peripheral on the same NET. The LP enable the following:
-
-- Fully smooth controlled animations
-- Ultra Low power
-- Don't need dedicated GPIO (Same NET as screens)

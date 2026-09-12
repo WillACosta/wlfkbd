@@ -6,7 +6,6 @@ This document describes the hardware decisions and choices for the Wlf Keyboard.
 
 - Usage of "Panelized Non-Reversible" PCB (costs saving and easy routing).
 - Seeed Studio XIAO nRF52840 Plus (20 GPIO).
-- Optional components: OLED SSD1306 or Nice!View ; EC12 Rotatory Encoder.
 
 ## WIP
 

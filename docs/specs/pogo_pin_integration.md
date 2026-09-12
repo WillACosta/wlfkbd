@@ -1,3 +1,5 @@
+> This is currently a disabled feature, this document exists only for future reference.
+
 ```mermaid
 flowchart LR
     subgraph Left["Main / Left Keyboard Half - Schema v2 (Diode Added)"]
