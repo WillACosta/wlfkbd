@@ -1,0 +1,21 @@
+name: Build The Wolf firmware
+
+on:
+  push:
+    paths:
+      - "firmware/**"
+      - "zephyr/module.yml"
+      - ".github/workflows/build-wlf-firmware.yml"
+  pull_request:
+    paths:
+      - "firmware/**"
+      - "zephyr/module.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      build_matrix_path: firmware/build.yaml
+      config_path: firmware/config
+      archive_name: wlf-firmware
