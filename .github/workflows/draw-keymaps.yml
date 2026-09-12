@@ -1,0 +1,25 @@
+name: Draw ZMK keymaps
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "firmware/config/*.keymap"
+      - "firmware/config/*.json"
+      - "firmware/boards/shields/**/*.dtsi"
+      - "keymap_drawer.config.yaml"
+      - ".github/workflows/draw-keymaps.yml"
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      keymap_patterns: "firmware/config/*.keymap"
+      config_path: "keymap_drawer.config.yaml"
+      output_folder: "keymap-drawer"
+      json_path: "firmware/config"
+      parse_args: "wlf:'-c 12'"
+      draw_args: "wlf:'-j firmware/config/wlf.json'"
+      commit_message: "keymap-drawer render"

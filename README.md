@@ -54,6 +54,11 @@ The thumb cluster anchors at `matrix_index_bottom` with a `[-0.1u, -1.30u]` offs
 
 > See the Ergogen [config file here](./keyboard/ergogen/config.yml) (used only for the layout diagram)
 
+### Keymap Diagram
+
+![Current Keymap](keymap-drawer/wlf.svg)
+
+
 
 ## Motivations
 
