@@ -24,6 +24,16 @@ featuring 2 outer-pinky keys only to improve ergonomics. This keyboard takes ins
 
 > For details about the features, head to the [specs module](./docs/specs/)
 
+## Firmware & Keymap
+
+The firmware for The Wolf is powered by [ZMK](https://zmk.dev/) and is maintained in its dedicated repository: **[WillACosta/zmk-config-wlf](https://github.com/WillACosta/zmk-config-wlf)**
+
+This repository links the firmware as a Git submodule under [`firmware/`](https://github.com/WillACosta/zmk-config-wlf). To clone both the hardware designs and firmware together:
+
+```bash
+git clone --recurse-submodules https://github.com/WillACosta/wlfkbd.git
+```
+
 ## Layout Overview
 
 | Zone | Columns | Rows | Keys/half | Notes |
@@ -53,16 +63,6 @@ mm:        0    +9.525 +4.763 +4.763 −4.763 −4.763
 The thumb cluster anchors at `matrix_index_bottom` with a `[-0.1u, -1.30u]` offset, placing it slightly left and well below the index column — a natural resting position for the thumb.
 
 > See the Ergogen [config file here](./keyboard/ergogen/config.yml) (used only for the layout diagram)
-
-## Firmware & Keymap
-
-The firmware for The Wolf is powered by [ZMK](https://zmk.dev/) and is maintained in its dedicated repository: **[WillACosta/zmk-config-wlf](https://github.com/WillACosta/zmk-config-wlf)**
-
-This repository links the firmware as a Git submodule under [`firmware/`](https://github.com/WillACosta/zmk-config-wlf). To clone both the hardware designs and firmware together:
-
-```bash
-git clone --recurse-submodules https://github.com/WillACosta/wlfkbd.git
-```
 
 ## Motivations
 
