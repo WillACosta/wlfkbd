@@ -54,11 +54,23 @@ The thumb cluster anchors at `matrix_index_bottom` with a `[-0.1u, -1.30u]` offs
 
 > See the Ergogen [config file here](./keyboard/ergogen/config.yml) (used only for the layout diagram)
 
-### Keymap Diagram
+## Firmware & Keymap
 
-![Current Keymap](keymap-drawer/wlf.svg)
+The firmware for The Wolf is powered by [ZMK](https://zmk.dev/) and is maintained in its dedicated repository:
 
+👉 **[WillACosta/zmk-config-wlf](https://github.com/WillACosta/zmk-config-wlf)**
 
+It includes:
+- **Pre-configured shields:** `wlf_left` and `wlf_right` for the Seeed Studio XIAO BLE (nRF52840).
+- **Keymap Editor support:** Visual layout configuration via [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/).
+- **Keymap Drawer:** Automated vector diagrams with custom theme and Lucide icon legends.
+- **Automated CI/CD:** Cloud compilation of `.uf2` binaries on every keymap commit.
+
+This repository links the firmware as a Git submodule under [`firmware/`](https://github.com/WillACosta/zmk-config-wlf). To clone both the hardware designs and firmware together:
+
+```bash
+git clone --recurse-submodules https://github.com/WillACosta/wlfkbd.git
+```
 
 ## Motivations
 

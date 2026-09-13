@@ -1,5 +1,0 @@
-# CI module wrapper: the actual shield sources remain in firmware/.
-name: zmk-keyboard-wlf
-build:
-  settings:
-    board_root: firmware

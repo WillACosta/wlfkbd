@@ -1,5 +1,0 @@
-#include "wlf.dtsi"
-
-&wlf_transform {
-    col-offset = <6>;
-};
