@@ -5,7 +5,7 @@ This document shortly explain the definitions for the LED status indicators for 
 ## Requirements
 
 - Minimalist and discret design: LEDs are invisible when off.
-- 3 individual RGB lights (each side).
+- 4 individual RGB lights (each side).
 - **Statuses**: Bluetooth Profiles, Battery, and Split link.
 
 ## Addressable RGB LEDs using SK6812 Mini-E
