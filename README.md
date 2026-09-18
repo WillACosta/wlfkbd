@@ -5,21 +5,22 @@
 
 > 3×6 (+2 outer-pinky) Split Keyboard · 3 Thumb Keys · All 1U · MX Compatible
 
-The **WᛝLF Keyboard** or just **wlfkbd** is a 40-key keyboard,
-featuring 2 outer-pinky keys only to improve ergonomics. This keyboard takes inspiration from well-known open-source keyboards such as "Corne", "Klor", and "Delta/Omega".
+The **WᛝLF Keyboard**, or simply **wlfkbd**, is a 40-key keyboard
+featuring only 2 outer-pinky keys to improve ergonomics. This keyboard takes inspiration from well-known open-source keyboards such as "Corne", "Klor", and "Delta/Omega".
 
 !["The Wolf Keyboard Render"](./docs/renders/wlf.png)
 
 ### Core Features
 
 - Wireless BLE (XIAO nRF52840).
-- Ultra low-profile build (<= 8mm).
+- Ultra-low-profile build (<= 8mm).
 - Low-profile switches and keycaps.
 - Compatible with MX-Standard and Gateron KS33/3.0 Low-Profile switches.
 - Good battery life (>=700mAh).
 - Minimalist and industrial design.
 - Aluminum case.
 - MX-Spacing.
+- White backlight.
 - RGB Status LEDs.
 
 > For details about the features, head to the [specs module](./docs/specs/)
@@ -66,9 +67,9 @@ The thumb cluster anchors at `matrix_index_bottom` with a `[-0.1u, -1.30u]` offs
 
 ## Motivations
 
-After stepping into the rabbit hole of "Custom Split Keyboards", I found myself fascinated by this new world, different keyboard layouts, different techniques, and a lot of fun!
+After stepping into the rabbit hole of "Custom Split Keyboards", I found myself fascinated by this new world of different keyboard layouts, techniques, and a lot of fun!
 
-I used and own some beloved models that were created by incredible people, models like:
+I have used and own some beloved models created by incredible people, including:
 
 - [Corne](https://github.com/foostan/crkbd)
 - [Klor](https://github.com/GEIGEIGEIST/KLOR)
@@ -77,17 +78,17 @@ I used and own some beloved models that were created by incredible people, model
 
 The Corne is my favorite keyboard out there (you may notice some similarities between the wlfkbd and crkbd).
 
-Still, I was missing something, that little thing that would improve my experience with the keyboard. Then I started to test different layouts on paper, and came up with the layout that you saw earlier. I even used [Ergo Pad](https://pashutk.com/ergopad/) to understand the most comfortable way of typing for my long fingers.
+Still, I was missing something—that little thing that would improve my experience with the keyboard. Then I started testing different layouts on paper and came up with the layout shown earlier. I even used [Ergo Pad](https://pashutk.com/ergopad/) to find the most comfortable way of typing for my long fingers.
 
 !["Ergo-Pad layout tester"](./docs/assets/ergo-pad.jpg)
 
 ### Features
 
-I'm very fond of good and minimal design, so I've taken inspiration from Apple products, specially the [Magic Keyboard](https://www.ifixit.com/Teardown/Magic+Keyboard+Teardown/50995) and [Magic Trackpad](https://www.ifixit.com/Teardown/Magic+Trackpad+2+Teardown/51032).
+I'm very fond of good, minimal design, so I've taken inspiration from Apple products, especially the [Magic Keyboard](https://www.ifixit.com/Teardown/Magic+Keyboard+Teardown/50995) and [Magic Trackpad](https://www.ifixit.com/Teardown/Magic+Trackpad+2+Teardown/51032).
 
 I really enjoy the white backlight of the built-in Mac keyboard, so I wanted to implement this in the first revision. Even though I only use the backlight occasionally, it's a nice-to-have for me.
 
-Then the major feature that I introduce here is the status LED on top of the outer-pinky column. It's something that I really wanted to have in previous keyboards, but didn't.
+The major feature I present here is the status LED on top of the outer-pinky column. It's something that I really wanted to have in previous keyboards but hadn't.
 
 Take a look at the current 3D render of the keyboard:
 
