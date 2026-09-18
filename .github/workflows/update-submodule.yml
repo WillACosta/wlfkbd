@@ -1,0 +1,27 @@
+name: Auto-update Firmware Submodule
+
+on:
+  repository_dispatch:
+    types: [ update-submodule ]
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout parent repo
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+          token: ${{ secrets.SUBMODULE_SYNC_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Update firmware submodule
+        run: |
+          git submodule update --init --remote --recursive firmware
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update firmware submodule to ${{ github.event.client_payload.commit_sha || 'latest' }}"
+          file_pattern: "firmware"
