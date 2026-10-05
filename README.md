@@ -2,8 +2,7 @@
 
 > 3×6 (+2 outer-pinky) Split Keyboard · 3 Thumb Keys · All 1U · MX Compatible
 
-The **WᛝLF Keyboard**, or **wlfkbd**, is a 40-key keyboard
-featuring only 2 outer-pinky keys to improve ergonomics. This keyboard takes inspiration from well-known open-source keyboards such as "Corne", "Klor", and "Delta/Omega".
+The **WᛝLF Keyboard**, or **wlfkbd**, is a 40-key keyboard featuring only 2 outer-pinky keys to improve ergonomics.
 
 !["The Wolf Keyboard"](./docs/assets/wlfkbd.JPEG)
 
@@ -44,11 +43,11 @@ git clone --recurse-submodules https://github.com/WillACosta/wlfkbd.git
 
 ## Layout Overview
 
-| Zone | Columns | Rows | Keys/half | Notes |
-|------|---------|------|-----------|-------|
-| Matrix | 6 (outer → inner) | 3 (bottom, home, top) | 17 | Outer column skips bottom row (2 keys only) |
-| Thumb | 3 (inner, home, outer) | 1 | 3 | Splayed arc, anchored below index |
-| **Total** | | | **20** | **40 keys full board** |
+| Zone      | Columns                | Rows                  | Keys/half | Notes                                       |
+| --------- | ---------------------- | --------------------- | --------- | ------------------------------------------- |
+| Matrix    | 6 (outer → inner)      | 3 (bottom, home, top) | 17        | Outer column skips bottom row (2 keys only) |
+| Thumb     | 3 (inner, home, outer) | 1                     | 3         | Splayed arc, anchored below index           |
+| **Total** |                        |                       | **20**    | **40 keys full board**                      |
 
 ### Column Stagger Profile
 
@@ -62,11 +61,11 @@ mm:        0    +9.525 +4.763 +4.763 −4.763 −4.763
 
 **Thumb Cluster Geometry**
 
-| Key | Splay | Spread | Stagger | Effective rotation |
-|-----|-------|--------|---------|--------------------|
-| thumb_inner | 0° | u (19.05mm) | 0mm | 0° |
-| thumb_home | −15° | u+2.5 (21.55mm) | −2.7mm | −15° |
-| thumb_outer | −14° | u+2.5 (21.55mm) | −2.5mm | −29° |
+| Key         | Splay | Spread          | Stagger | Effective rotation |
+| ----------- | ----- | --------------- | ------- | ------------------ |
+| thumb_inner | 0°    | u (19.05mm)     | 0mm     | 0°                 |
+| thumb_home  | −15°  | u+2.5 (21.55mm) | −2.7mm  | −15°               |
+| thumb_outer | −14°  | u+2.5 (21.55mm) | −2.5mm  | −29°               |
 
 The thumb cluster anchors at `matrix_index_bottom` with a `[-0.1u, -1.30u]` offset, placing it slightly left and well below the index column — a natural resting position for the thumb.
 
