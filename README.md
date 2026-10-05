@@ -2,7 +2,7 @@
 
 > 3×6 (+2 outer-pinky) Split Keyboard · 3 Thumb Keys · All 1U · MX Compatible
 
-The **WᛝLF Keyboard**, or **wlfkbd**, is a 40-key keyboard featuring only 2 outer-pinky keys to improve ergonomics.
+The **WᛝLF Keyboard**, or **wlfkbd**, is a 40-key keyboard featuring only 2 outer-pinky keys to improve ergonomics, white backlight and RGB status LEDs.
 
 !["The Wolf Keyboard"](./docs/assets/wlfkbd.JPEG)
 
