@@ -4,6 +4,17 @@ This is the build guide for The Wolf Keyboard.
 
 !["Wolf Keyboard Picture"](../../docs/gallery/IMG_1085.JPEG)
 
+This guide lists the required and optional parts, explains how to order the PCBs, aluminum case, and 3D-printed parts, and walks through the final assembly.
+
+### Index
+
+- [Parts](#parts)
+- [Ordering Guides](#ordering-guides)
+  - [PCB](#pcb)
+  - [Aluminum case](#aluminum-case)
+  - [3D printed parts](#3d-printed-parts)
+- [Assembly](#assembly)
+
 ## Parts
 
 The PCB is designed to be ordered with its SMD components pre-assembled, making the build easier but more expensive. You can solder the SMD components by hand if you prefer. You can also use a hot plate, though you may need a stencil for precise placement.
@@ -127,7 +138,7 @@ The production files are in [`wolf_keyboard/production/`](../../keyboard/kicad/r
 
 4. Insert the bottom plate, then fasten it to the top case with screws. Tighten them firmly, but do not overtighten.
 
-<!-- !["Bottom view"](../assets/build_images/bottom_view.JPG) -->
+!["Bottom view"](../assets/build_images/bottom_view.JPG)
 
 5. Insert the keycaps, and you're good to go!
 

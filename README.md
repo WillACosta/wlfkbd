@@ -5,7 +5,7 @@
 The **WᛝLF Keyboard**, or **wlfkbd**, is a 40-key keyboard
 featuring only 2 outer-pinky keys to improve ergonomics. This keyboard takes inspiration from well-known open-source keyboards such as "Corne", "Klor", and "Delta/Omega".
 
-!["The Wolf Keyboard Render"](./docs/renders/wlf.png)
+!["The Wolf Keyboard"](./docs/assets/wlfkbd.JPEG)
 
 > <a href="https://jlccnc.com/"><img src="./docs/assets/jlccnc-logo.webp" alt="JLCCNC" width="110"></a><br>
 > Thanks to [JLCCNC](https://jlccnc.com/about-us) for sponsoring the production of the aluminum case. New customers can receive a total of $70 in coupons, so if you haven't used them yet, please check them out.
@@ -97,9 +97,7 @@ I really enjoy the white backlight of the built-in Mac keyboard, so I wanted to 
 
 The major feature I present here is the status LED on top of the outer-pinky column. It's something that I really wanted to have in previous keyboards but hadn't.
 
-Take a look at the final result of the keyboard:
-
-![Image of the wlfkbd](./docs/gallery/IMG_1086.JPEG)
+![Image of the wlfkbd](./docs/renders/wlf.png)
 
 > For more pictures head to the [gallery](https://willacosta.github.io/wlfkbd/)
 
