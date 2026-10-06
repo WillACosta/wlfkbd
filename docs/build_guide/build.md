@@ -62,7 +62,7 @@ The PCB is designed to be ordered with its SMD components pre-assembled, making 
 
 ## Ordering Guides
 
-> [!INFO]
+> [!NOTE]
 > For more details about dimensions and surface finishes, see the [Measures & Materials tables](./tables.md).
 
 ### PCB
@@ -78,7 +78,7 @@ The production files are in [`wolf_keyboard/production/`](../../keyboard/kicad/r
 3. Add SMT assembly. Upload `bom.csv` as the BOM and `positions.csv` as the CPL / pick-and-place file.
 4. Review the matched parts and placement preview. Confirm that both board sides and all listed components are included.
 
-> [!INFO]
+> [!NOTE]
 > You may need to reposition some components because the PCB component preview is not always accurate. In my case, I had to adjust the switch sockets and MCU placement before placing the order.
 
 5. Choose the assembly quantity and finish the quote and order.
@@ -121,13 +121,14 @@ The production files are in [`wolf_keyboard/production/`](../../keyboard/kicad/r
 
 2. Attach the switches to the case first, then insert the status LED cover into its slot.
 
+> [!NOTE]
 > The switches may be difficult to insert, so you may need to push them firmly. Insert one side first, then the other, to help them fit into place.
 
 !["Case with switches"](../assets/build_images/switches.JPG)
 
 3. Return to the PCB and solder the battery wires if you chose not to install the JST connector. Then insert the PCB into the case.
 
-> [!INFO]
+> [!WARNING]
 > The space between the PCB and case walls is tight, so install it carefully to avoid damaging anything. I'll add more clearance for the inner walls in a future revision. For now, take care during installation.
 
 - Tilt the PCB slightly backward.

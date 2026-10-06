@@ -39,7 +39,7 @@ git clone --recurse-submodules https://github.com/WillACosta/wlfkbd.git
 - [Gallery and Keymap](https://willacosta.github.io/wlfkbd/)
 - [Build Guide](./docs/build_guide/build.md)
 - [Measures and Materials tables](./docs/build_guide/tables.md)
-- [Flashing Instructions](./firmware/README.md#flashing-instructions)
+- [Flashing Instructions](https://github.com/WillACosta/zmk-config-wlf/blob/main/README.md#flashing-instructions)
 
 ## Layout Overview
 
