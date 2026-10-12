@@ -1,33 +1,29 @@
 ## The Wolf Split Keyboard
 
-> [!WARNING]
-> **Work In Progress (WIP)**: This project is currently under active development.
-
 > 3×6 (+2 outer-pinky) Split Keyboard · 3 Thumb Keys · All 1U · MX Compatible
 
-The **WᛝLF Keyboard**, or simply **wlfkbd**, is a 40-key keyboard
-featuring only 2 outer-pinky keys to improve ergonomics. This keyboard takes inspiration from well-known open-source keyboards such as "Corne", "Klor", and "Delta/Omega".
+The **WᛝLF Keyboard**, or **wlfkbd**, is a 40-key keyboard featuring only 2 outer-pinky keys to improve ergonomics, white backlight and RGB status LEDs.
 
-!["The Wolf Keyboard Render"](./docs/renders/wlf.png)
+!["The Wolf Keyboard"](./docs/assets/wlfkbd.JPEG)
 
-### Core Features
+> <a href="https://jlccnc.com/"><img src="./docs/assets/jlccnc-logo.webp" alt="JLCCNC" width="110"></a><br>
+> Thanks to [JLCCNC](https://jlccnc.com/about-us) for sponsoring the production of the aluminum case. New customers can receive a total of $70 in coupons, so if you haven't used them yet, please check them out.
 
-- Wireless BLE (XIAO nRF52840).
-- Ultra-low-profile build (<= 8mm).
-- Low-profile switches and keycaps.
-- Compatible with MX-Standard and Gateron KS33/3.0 Low-Profile switches.
-- Good battery life (>=700mAh).
-- Minimalist and industrial design.
-- Aluminum case.
+### Features
+
+- Wireless BLE XIAO nRF52840.
+- Ultra-low-profile build (8mm case and 11mm total).
+- Lightweight (only 300 g for both halves).
 - MX-Spacing.
+- Compatible with Gateron KS33/3.0 Low-Profile switches.
+- Long battery life (700mAh each half).
+- Minimalist design.
 - White backlight.
 - RGB Status LEDs.
 
-> For details about the features, head to the [specs module](./docs/specs/)
-
 ## Firmware & Keymap
 
-The firmware for The Wolf is powered by [ZMK](https://zmk.dev/) and is maintained in its dedicated repository: **[WillACosta/zmk-config-wlf](https://github.com/WillACosta/zmk-config-wlf)**
+The firmware for The Wolf is powered by [ZMK](https://zmk.dev/) and is maintained in its dedicated repository: **[zmk-config-wlf](https://github.com/WillACosta/zmk-config-wlf)**
 
 This repository links the firmware as a Git submodule under [`firmware/`](https://github.com/WillACosta/zmk-config-wlf). To clone both the hardware designs and firmware together:
 
@@ -35,13 +31,20 @@ This repository links the firmware as a Git submodule under [`firmware/`](https:
 git clone --recurse-submodules https://github.com/WillACosta/wlfkbd.git
 ```
 
+## Documentation
+
+- [Gallery and Keymap](https://willacosta.github.io/wlfkbd/)
+- [Build Guide](./docs/build_guide)
+- [Measures and Materials tables](./docs/build_guide/tables.md)
+- [Flashing Instructions](https://github.com/WillACosta/zmk-config-wlf/blob/main/README.md#flashing-instructions)
+
 ## Layout Overview
 
-| Zone | Columns | Rows | Keys/half | Notes |
-|------|---------|------|-----------|-------|
-| Matrix | 6 (outer → inner) | 3 (bottom, home, top) | 17 | Outer column skips bottom row (2 keys only) |
-| Thumb | 3 (inner, home, outer) | 1 | 3 | Splayed arc, anchored below index |
-| **Total** | | | **20** | **40 keys full board** |
+| Zone      | Columns                | Rows                  | Keys/half | Notes                                       |
+| --------- | ---------------------- | --------------------- | --------- | ------------------------------------------- |
+| Matrix    | 6 (outer → inner)      | 3 (bottom, home, top) | 17        | Outer column skips bottom row (2 keys only) |
+| Thumb     | 3 (inner, home, outer) | 1                     | 3         | Splayed arc, anchored below index           |
+| **Total** |                        |                       | **20**    | **40 keys full board**                      |
 
 ### Column Stagger Profile
 
@@ -55,11 +58,11 @@ mm:        0    +9.525 +4.763 +4.763 −4.763 −4.763
 
 **Thumb Cluster Geometry**
 
-| Key | Splay | Spread | Stagger | Effective rotation |
-|-----|-------|--------|---------|--------------------|
-| thumb_inner | 0° | u (19.05mm) | 0mm | 0° |
-| thumb_home | −15° | u+2.5 (21.55mm) | −2.7mm | −15° |
-| thumb_outer | −14° | u+2.5 (21.55mm) | −2.5mm | −29° |
+| Key         | Splay | Spread          | Stagger | Effective rotation |
+| ----------- | ----- | --------------- | ------- | ------------------ |
+| thumb_inner | 0°    | u (19.05mm)     | 0mm     | 0°                 |
+| thumb_home  | −15°  | u+2.5 (21.55mm) | −2.7mm  | −15°               |
+| thumb_outer | −14°  | u+2.5 (21.55mm) | −2.5mm  | −29°               |
 
 The thumb cluster anchors at `matrix_index_bottom` with a `[-0.1u, -1.30u]` offset, placing it slightly left and well below the index column — a natural resting position for the thumb.
 
@@ -90,11 +93,9 @@ I really enjoy the white backlight of the built-in Mac keyboard, so I wanted to 
 
 The major feature I present here is the status LED on top of the outer-pinky column. It's something that I really wanted to have in previous keyboards but hadn't.
 
-Take a look at the current 3D render of the keyboard:
+![Image of the wlfkbd](./docs/renders/wlf.png)
 
-![3D render for the wlfkbd](./docs/renders/keycaps/top.png)
-
-> For more pictures head to the [render gallery](./docs/renders/)
+> For more pictures head to the [gallery](https://willacosta.github.io/wlfkbd/)
 
 ## Why "The WᛝLF"?
 
