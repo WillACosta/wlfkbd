@@ -11,18 +11,15 @@ The **WᛝLF Keyboard**, or **wlfkbd**, is a 40-key keyboard featuring only 2 ou
 
 ### Features
 
-- Wireless BLE (XIAO nRF52840).
-- Ultra-low-profile build with 17 mm(case + switches + keycaps)
-- Low-profile switches and keycaps.
-- Compatible with MX-Standard and Gateron KS33/3.0 Low-Profile switches.
-- Long battery life (700mAh).
-- Minimalist and industrial design.
-- Aluminum case (8 mm thick)
+- Wireless BLE XIAO nRF52840.
+- Ultra-low-profile build (8mm case and 11mm total).
+- Lightweight (only 300 g for both halves).
 - MX-Spacing.
+- Compatible with Gateron KS33/3.0 Low-Profile switches.
+- Long battery life (700mAh each half).
+- Minimalist design.
 - White backlight.
 - RGB Status LEDs.
-
-> For details about the features, head to the [specs module](./docs/specs/)
 
 ## Firmware & Keymap
 
@@ -37,7 +34,7 @@ git clone --recurse-submodules https://github.com/WillACosta/wlfkbd.git
 ## Documentation
 
 - [Gallery and Keymap](https://willacosta.github.io/wlfkbd/)
-- [Build Guide](./docs/build_guide/build.md)
+- [Build Guide](./docs/build_guide)
 - [Measures and Materials tables](./docs/build_guide/tables.md)
 - [Flashing Instructions](https://github.com/WillACosta/zmk-config-wlf/blob/main/README.md#flashing-instructions)
 
