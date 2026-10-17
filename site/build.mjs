@@ -14,6 +14,7 @@ const photos = (await readdir(gallery)).filter((name) => /^IMG_\d+\.(jpe?g)$/i.t
 if (photos.length === 0) throw new Error('No photos found in docs/gallery');
 
 const ordered = photos.sort();
+const soundTest = 'wlfkbd_sound_test.mp4';
 
 const descriptions = {
   'IMG_1226.JPG': 'The finished split keyboard beside a trackpad on a dark desk',
@@ -50,6 +51,14 @@ await copyFile(path.join(site, 'main.js'), path.join(output, 'main.js'));
 await copyFile(path.join(root, 'firmware/keymap-drawer/wlf.svg'), path.join(output, 'keymap.svg'));
 await writeFile(path.join(output, '.nojekyll'), '');
 
+// Build a portrait poster for the featured, playable sound test.
+await copyFile(path.join(gallery, soundTest), path.join(output, 'gallery', soundTest));
+await run('ffmpeg', [
+  '-y', '-loglevel', 'error', '-i', path.join(gallery, soundTest),
+  '-vf', 'scale=900:1600:force_original_aspect_ratio=decrease:force_divisible_by=2',
+  '-frames:v', '1', '-update', '1', path.join(output, 'gallery', 'wlfkbd_sound_test.jpg'),
+]);
+
 // Four workers keep the build quick without exhausting the Pages runner.
 let next = 0;
 await Promise.all(Array.from({ length: Math.min(4, ordered.length) }, async () => {
@@ -76,7 +85,9 @@ const cards = ordered.map((name, index) => {
 
 const template = await readFile(path.join(site, 'index.html'), 'utf8');
 const page = template
-  .replaceAll('{{PHOTO_COUNT}}', String(ordered.length))
+  .replaceAll('{{PHOTO_COUNT}}', `${ordered.length} photographs`)
+  .replace('{{SOUND_TEST_VIDEO}}', `gallery/${soundTest}`)
+  .replace('{{SOUND_TEST_POSTER}}', 'gallery/wlfkbd_sound_test.jpg')
   .replace('{{GALLERY_CARDS}}', cards);
 await writeFile(path.join(output, 'index.html'), page);
-console.log(`Built site with ${ordered.length} gallery photos at ${output}`);
+console.log(`Built site with ${ordered.length} gallery photos and a featured sound test at ${output}`);

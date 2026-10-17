@@ -66,8 +66,20 @@
         <div class="section-kicker"><span class="section-kicker__number">02 /</span> The gallery</div>
         <div class="section-heading">
           <div><h2 id="gallery-title">From parts to <em>presence.</em></h2><p>A closer look at the build, the details, and the finished keyboard.</p></div>
-          <span class="section-heading__aside">{{PHOTO_COUNT}} photographs<br>One little obsession</span>
+          <span class="section-heading__aside">{{PHOTO_COUNT}}<br>One little obsession</span>
         </div>
+        <article class="sound-test" aria-labelledby="sound-test-title">
+          <div class="sound-test__copy">
+            <div class="sound-test__eyebrow"><span aria-hidden="true">♪</span> Sound test / Gateron KS33B</div>
+            <h3 id="sound-test-title">Blush Silent<br><em>in sound.</em></h3>
+            <p>A short typing test of the Gateron KS33B Blush Silent switches in The Wolf.</p>
+            <span class="sound-test__hint">Turn your sound on to listen</span>
+          </div>
+          <video class="sound-test__video" controls playsinline preload="metadata" poster="{{SOUND_TEST_POSTER}}" aria-label="Typing and sound test with Gateron KS33B Blush Silent Switches">
+            <source src="{{SOUND_TEST_VIDEO}}" type="video/mp4">
+            Your browser does not support embedded video.
+          </video>
+        </article>
         <div class="gallery-grid" aria-label="Keyboard build gallery">
           {{GALLERY_CARDS}}
         </div>
@@ -91,7 +103,7 @@
     <footer class="site-footer"><a class="wordmark" href="#top" aria-label="The Wolf, back to top">W<span class="wordmark__rune">ᛝ</span>LF<span class="wordmark__dot">.</span></a><span>40 keys. A little more space.</span><a href="#top">Back to top ↑</a></footer>
   </div>
 
-  <dialog class="lightbox" aria-label="Gallery photo viewer">
+  <dialog class="lightbox" aria-label="Gallery viewer">
     <div class="lightbox__top"><span id="lightbox-count"></span><button class="lightbox__close" type="button" aria-label="Close photo viewer">Close <span aria-hidden="true">×</span></button></div>
     <div class="lightbox__body"><button class="lightbox__arrow" data-direction="-1" type="button" aria-label="Previous photo">←</button><img id="lightbox-image" alt=""><button class="lightbox__arrow" data-direction="1" type="button" aria-label="Next photo">→</button></div>
     <p id="lightbox-caption"></p>
